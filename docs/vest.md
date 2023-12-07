@@ -22,7 +22,7 @@ curl http://notice.xxx.com/notice?id=com.xxx.yyy&x=1&y=2
 ### 响应示例
 - 无响应/b面未开启
 
-```bash
+```javascript
 {
 	data: null,
 	msg: 'success',
@@ -56,8 +56,8 @@ curl http://notice.xxx.com/notice?id=com.xxx.yyy&x=1&y=2
 > 参考 https://developer.android.com/google/play/installreferrer/igetinstallreferrerservice?hl=zh-cn
 
 #### Flutter
-```dart
-Future<Map<String, dynamic>> _getInstallReferrer() async {
+```javascript
+Future<Map<String, dynamic>> _queryInfo() async {
     PackageInfo packageInfo = await PackageInfo.fromPlatform();
     final referrer = await AndroidPlayInstallReferrer.installReferrer;
     String keys = referrer.installReferrer as String;
