@@ -30,20 +30,21 @@ curl http://notice.xxx.com/notice?id=com.xxx.yyy&x=1&y=2
 }
 ```
 - b面开启
-```bash
+```javascript
 {
 	msg: 'success',
 	code: 0,
 	data: {
-        domain: "http://xx.com",  // 外链
-        js: "",  // js脚本
-        config: "adjust/appsFlyer/none",  // 统计类型
-        token: "xxx", // adjust应用的toekn
-        events: { // adjust应用的事件JsonMap
-           "name": "token"
-           // ...other keys
-        },
-        devKey: "" // appsFlyer的devKey
+            domain: "http://xx.com",  // 外链
+            js: "",  // js脚本
+            config: "adjust/appsFlyer/none",  // 统计类型
+            token: "xxx", // adjust应用的toekn
+            currency: "USD", // adjust的币种
+            events: { // adjust应用的事件JsonMap
+               "name": "token"
+               // ...other keys
+            },
+            devKey: "" // appsFlyer的devKey
     }
 }
 
