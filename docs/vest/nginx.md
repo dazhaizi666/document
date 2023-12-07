@@ -5,7 +5,7 @@ sidebar_position: 2
 # 二、Nginx配置
 
 Nginx添加如下配置：
-```bash
+```shell
 server {
     listen 80;
     server_name notice.*;
