@@ -76,8 +76,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '马甲包',
-          }
+            label: '马甲包对接',
+          },
+          {to: '/8k8', label: '8k8打包', position: 'left'},
         ],
       },
       footer: {
