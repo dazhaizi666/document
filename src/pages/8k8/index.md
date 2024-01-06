@@ -4,7 +4,7 @@ hide_table_of_contents: true
 ---
 
 # 修改跳转链接
-依次展开目录 k8\app\src\main\java\com\k8\k8\MainActivity.kt , 找到26行
+依次展开目录 k8\app\src\main\java\com\package_fortunate_tiger_666\fortunate_tiger\HomeActivity.java , 找到40行
 ![链接](./img/1.png)
 
 # 修改app名称
